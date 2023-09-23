@@ -205,6 +205,18 @@ header {
     }
 }
 
+// Profile Picture
+
+.profile-pic {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #222; /* You can change the border color and thickness here */
+    border-radius: 50%; /* Creates a circular border for a round profile picture */
+    display: block; /* Ensures the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally within its parent container */
+}
+
+
 // Sections
 
 .section-heading {
