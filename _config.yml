@@ -1,12 +1,19 @@
-# Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+# Primary site settings
+title: "Hello. I'm Jason Zhu."
+email: 'jzcompsci@gmail.com'
+description: "I'm a software developer from Winnipeg fascinated in machine learning models."
+baseurl: "" 
+url: "https://jz-fsdev.github.io" 
+linkedin_username: 'jason-zhu-dev'
+github_username: 'jz-fsdev'
 
-twitter_username:
-github_username:
+# Contact settings
+contact_heading: "Let's Get In Touch!"
+
+contact_paragraph: "I am always open to collaborating on new projects to push my boundaries and grow as a software developer.  Send me an email or reach out to me on LinkedIn and I will respond at my earliest convenience."
 
 # Build settings
 markdown: kramdown
+
+footer_text: '© 2023 Jason Zhu'
+google_analytics: ""
