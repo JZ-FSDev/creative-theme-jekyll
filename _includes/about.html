@@ -1,18 +1,12 @@
 <section class="bg-primary" id="about">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <img src="/img/pfp.jpg" class="img-fluid" alt="Profile Picture">
-            </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
+                <img src="img/pfp.jpg" class="img-fluid" alt="Profile Picture">
                 <h2 class="section-heading">{{ site.about_heading }}</h2>
                 <hr class="light">
                 <p class="text-faded">{{ site.about_description }}</p>
-                <div class="btn btn-default btn-lg">
-                    <a href="{{ site.resume_url }}">
-                        <i class="fa fa-file fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                        <p>Resume</p>
-                    </a>
+                <a href="{{ site.resume_url }}"><button class="btn btn-default btn-lg"><i class="fa fa-file fa-lg"></i>Resume</button></a>
                 </div>
             </div>
         </div>
