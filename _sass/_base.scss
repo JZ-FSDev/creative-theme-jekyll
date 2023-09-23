@@ -298,10 +298,27 @@ header {
     }
 }
 
-.footer {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+.site-footer {
+    font-size: 14px;
+    margin-top: 2em;
+    padding: 1em 0;
+    p {
+      font-size: 12px;
+      font-weight: 600;
+      color: #222222;
+      margin: 0;
+      padding: 10px 0;
+      @include bp-xsmall {
+        text-align: center;
+      }
+    }
+    .section-jump {
+      float: right;
+      @include bp-xsmall {
+        float: none;
+      }
+    }
+  }
 
 // Bootstrap Overrides
 .text-primary {
