@@ -180,9 +180,11 @@ header {
             @keyframes typewriter {
                 from {
                   width: 0;
+                  text-align: left;
                 }
                 to {
                   width: 500px;
+                  text-align: center;
                 }
               }
             @keyframes blinkTextCursor {
@@ -201,6 +203,7 @@ header {
                 color: rgba(255, 255, 255, 0.7);
                 font-size: 16px;
                 margin-bottom: 50px;
+                overflow: hidden;
                 border-right: 2px solid hsl(0, 0%, 80%);
                 white-space: nowrap;
                 animation: typewriter 4s steps(44) 5s 1 normal both,
