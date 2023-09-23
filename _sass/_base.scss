@@ -162,22 +162,10 @@ header {
     .header-content {
         position: relative;
         text-align: center;
-        // padding: 100px 15px 100px;
+        padding: 100px 15px 100px;
         width: 100%;
 
         .header-content-inner {
-            h1 {
-                font-weight: 700;
-                font-size: 80px;
-                text-transform: uppercase;
-                margin-top: 0;
-                margin-bottom: 0;
-                overflow: hidden;
-                border-right: 2px solid hsl(0, 0%, 80%);
-                white-space: nowrap;
-                animation: typewriter 4s steps(44) 1s 1 normal both,
-                    blinkTextCursor 500ms infinite;
-            }
             @keyframes typewriter {
                 from {
                   width: 0;
@@ -194,7 +182,7 @@ header {
                   text-align: right;
                 }
                 to {
-                  width: 900px;
+                  width: 850px;
                   text-align: center;
                 }
             }
@@ -205,6 +193,18 @@ header {
                 to {
                   border-right-color: transparent;
                 }
+            }
+            h1 {
+                font-weight: 700;
+                font-size: 80px;
+                // text-transform: uppercase;
+                margin-top: 0;
+                margin-bottom: 0;
+                overflow: hidden;
+                border-right: 2px solid hsl(0, 0%, 80%);
+                white-space: nowrap;
+                animation: typewriter 4s steps(44) 1s 1 normal both,
+                    blinkTextCursor 500ms infinite;
             }
             hr {
                 margin: 30px auto;
