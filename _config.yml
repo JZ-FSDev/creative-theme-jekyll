@@ -4,7 +4,7 @@ description: "I'm a software developer from Winnipeg fascinated in machine learn
 project_hook: "Find Out More"
 email: 'jzcompsci@gmail.com'
 baseurl: "" 
-url: "https://jz-fsdev.github.io" 
+url: "https://jz-fsdev.github.io/creative-theme-jekyll" 
 linkedin_username: 'jason-zhu-dev'
 github_username: 'jz-fsdev'
 
@@ -18,6 +18,12 @@ contact_paragraph: "I am always open to collaborating on new projects to push my
 # Project settings
 p1_category:
 p1_name:
+
+p2_category:
+p2_name:
+
+p3_category: "Plant Molecular Biology Research"
+p3_name: "Polyketide Synthases"
 
 # Build settings
 markdown: kramdown
