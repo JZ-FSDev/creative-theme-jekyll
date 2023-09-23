@@ -25,10 +25,10 @@ p2_name:
 
 p3_category: "Plant Molecular Biology Research"
 p3_name: "Polyketide Synthases"
-p3_url: 
+p3_url: "https://drive.google.com/file/d/1uOi3eD-iQl8q2NS9c1yO3ljoVra8coAk/view?usp=drive_link"
 
 # About settings
-about_heading: "Everyone's journey before pursuing computer science is different."
+about_heading: "Everyone's journey is different."
 about_description: "I come from a background in general sciences, which opened my eyes to the complexity of the world and taught me the importance of accuracy and novel discovery, not only in experiments but also in everything we do in life. My time as an operations manager at a local family restaurant allowed me to witness firsthand how quality and strict adherence to guidelines translate into happy and satisfied customers. These lessons and experiences guide my journey in the pursuit of developing high-quality and innovative software that brings smiles to customers' faces."
 
 # Build settings
