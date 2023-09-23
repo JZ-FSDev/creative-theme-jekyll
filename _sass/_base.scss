@@ -180,13 +180,23 @@ header {
             @keyframes typewriter {
                 from {
                   width: 0;
-                  text-align: left;
+                  text-align: right;
                 }
                 to {
-                  width: 500px;
+                  width: 450px;
                   text-align: center;
                 }
-              }
+            }
+            @keyframes typewriterDesc {
+                from {
+                  width: 0;
+                  text-align: right;
+                }
+                to {
+                  width: 700px;
+                  text-align: center;
+                }
+            }
             @keyframes blinkTextCursor {
                 from {
                   border-right-color: hsl(0, 0%, 80%);
@@ -206,7 +216,7 @@ header {
                 overflow: hidden;
                 border-right: 2px solid hsl(0, 0%, 80%);
                 white-space: nowrap;
-                animation: typewriter 4s steps(44) 5s 1 normal both,
+                animation: typewriterDesc 4s steps(44) 5s 1 normal both,
                 blinkTextCursor 500ms infinite;
             }
         }
