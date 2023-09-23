@@ -172,7 +172,7 @@ header {
                 margin-top: 0;
                 margin-bottom: 0;
                 overflow: hidden;
-                // border-right: 2px solid hsl(0, 0%, 80%);
+                border-right: 2px solid hsl(0, 0%, 80%);
                 // white-space: nowrap;
                 animation: typewriter 4s steps(44) 1s 1 normal both,
                     blinkTextCursor 500ms infinite;
@@ -182,7 +182,7 @@ header {
                   width: 0;
                 }
                 to {
-                  width: 0;
+                  width: 500px;
                 }
               }
             @keyframes blinkTextCursor {
@@ -201,6 +201,9 @@ header {
                 color: rgba(255, 255, 255, 0.7);
                 font-size: 16px;
                 margin-bottom: 50px;
+                border-right: 2px solid hsl(0, 0%, 80%);
+                animation: typewriter 4s steps(44) 5s 1 normal both,
+                blinkTextCursor 500ms infinite;
             }
         }
     }
