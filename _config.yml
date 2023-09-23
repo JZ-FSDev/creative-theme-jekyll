@@ -17,12 +17,13 @@ contact_heading: "Let's Get In Touch!"
 contact_paragraph: "I am always open to collaborating on new projects to push my boundaries and grow as a software developer.  Send me an email or reach out to me on LinkedIn and I will respond at my earliest convenience."
 
 # Project settings
-p1_category: Depth-based Graph Core Decomposition
-p1_name: InnerCore
+p1_category: "Depth-based Graph Core Decomposition"
+p1_name: "InnerCore"
 p1_url: "https://github.com/JZ-FSDev/InnerCore"
 
-p2_category:
-p2_name:
+p2_category: "Software Engineering Project"
+p2_name: "Android Music Management System"
+p1_url: "https://techtitans-uofm.github.io/posts/Music-Management-System/"
 
 p3_category: "Plant Molecular Biology Research"
 p3_name: "Polyketide Synthases"
