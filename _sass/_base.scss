@@ -171,7 +171,7 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
-                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow here */
+                text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Add text shadow here */
             }
             hr {
                 margin: 30px auto;
@@ -181,7 +181,7 @@ header {
                 color: rgba(255, 255, 255, 0.7);
                 font-size: 16px;
                 margin-bottom: 50px;
-                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow here */
+                text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Add text shadow here */
             }
         }
     }
@@ -204,7 +204,7 @@ header {
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
-                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow here */
+                    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Add text shadow here */
                 }
             }
         }
@@ -306,7 +306,7 @@ header {
 }
 
 .site-footer {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 2em;
     padding: 1em 0;
     p {
@@ -319,7 +319,12 @@ header {
     .section-jump {
       float: right;
     }
-  }
+    .row {
+        display: flex;
+        align-items: center; /* Vertically center the content */
+        justify-content: space-between; /* Distribute the content evenly horizontally */
+    }
+}
 
 // Bootstrap Overrides
 .text-primary {
