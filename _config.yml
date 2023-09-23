@@ -20,13 +20,16 @@ contact_paragraph: "I am always open to collaborating on new projects to push my
 project_intro_title: "Below are projects I am proud of:"
 
 q1_title: "I uphold a strict standard for quality"
-q1_desc: "\"Quality means doing it right when no one is looking.\" \n- Henry Ford"
+q1_desc: "\"Quality means doing it right when no one is looking.\""
+q1_author: "- Henry Ford"
 
 q2_title: "I believe there are no limits with teamwork"
-q2_desc: "\"Alone, we can do so little; together, we can do so much.\" \n- Helen Keller"
+q2_desc: "\"Alone, we can do so little; together, we can do so much.\""
+q1_author: "- Helen Keller"
 
 q3_title: "I pour my heart and soul into my work"
-q3_desc: "\"When you love your work, it's not work anymore.\" \n- Jack Canfield"
+q3_desc: "\"When you love your work, it's not work anymore.\""
+q1_author: "- Jack Canfield"
 
 p1_category: "Depth-based Graph Core Decomposition"
 p1_name: "InnerCore"
