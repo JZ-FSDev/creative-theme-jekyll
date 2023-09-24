@@ -166,15 +166,15 @@ header {
         width: 100%;
 
         .header-content-inner {
-            text-align: center;
+            align-content: center;
             @keyframes typewriter {
                 from {
                   width: 0;
-                  text-align: center;
+                  align-content: center;
                 }
                 to {
                   width: 400px;
-                  text-align: center;
+                  align-content: center;
                 }
             }
             @keyframes blinkTextCursor {
