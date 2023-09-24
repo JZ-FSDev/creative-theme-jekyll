@@ -172,7 +172,7 @@ header {
                   text-align: right;
                 }
                 to {
-                  width: 300px;
+                  width: 400px;
                   text-align: center;
                 }
             }
@@ -182,7 +182,7 @@ header {
                   text-align: right;
                 }
                 to {
-                  width: 850px;
+                  width: 800px;
                   text-align: center;
                 }
             }
@@ -216,7 +216,7 @@ header {
                 margin-bottom: 50px;
                 overflow: hidden;
                 border-right: 2px solid hsl(0, 0%, 80%);
-                // white-space: nowrap;
+                white-space: nowrap;
                 animation: typewriterDesc 3s steps(40) 2s 1 normal both,
                 blinkTextCursor 500ms infinite;
             }
