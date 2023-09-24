@@ -202,8 +202,8 @@ header {
                 margin-bottom: 0;
                 overflow: hidden;
                 border-right: 2px solid hsl(0, 0%, 80%);
-                // white-space: nowrap;
-                animation: typewriter 4s steps(15) 1s 1 normal both,
+                white-space: nowrap;
+                animation: typewriter 1s steps(15) 1s 1 normal both,
                     blinkTextCursor 500ms infinite;
             }
             hr {
@@ -216,8 +216,8 @@ header {
                 margin-bottom: 50px;
                 overflow: hidden;
                 border-right: 2px solid hsl(0, 0%, 80%);
-                white-space: nowrap;
-                animation: typewriterDesc 4s steps(40) 5s 1 normal both,
+                // white-space: nowrap;
+                animation: typewriterDesc 3s steps(40) 2s 1 normal both,
                 blinkTextCursor 500ms infinite;
             }
         }
